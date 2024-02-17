@@ -35,7 +35,7 @@ const root = {
         return user;
     },
     deleteUser: async ({ id }) => {
-        return await User.findByIdAndRemove(id);
+        return await User.findByIdAndDelete(id);
     },
 };
 
